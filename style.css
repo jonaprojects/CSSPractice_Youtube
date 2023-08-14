@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  background-color: #1d1d1d;
+  direction: rtl;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  padding: 3rem;
+  border-radius: 0.5em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 75%;
+  max-width: 500px;
+}
+
+p {
+  font-family: "Heebo", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 3px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  font-family: "Heebo", sans-serif;
+}
+
+#submitButton {
+  all: unset;
+  margin-top: 1em;
+  background-color: #2c06ff;
+  color: white;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  width: 100%;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+#submitButton:hover {
+  background-color: transparent;
+  color: #2c06ff;
+  border: 1px solid #2c06ff;
+}
